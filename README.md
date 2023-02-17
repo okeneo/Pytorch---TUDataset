@@ -4,4 +4,4 @@ Parse each dataset by getting the node/edges, as well as the graph label of each
 Lastly, we convert a graph from it's TUDataset format to a graph TupleList representation<br>
 <br>
 
-**Original Author: [Phunmey](https://github.com/Phunmey) **
+**Original Author: [Phunmey](https://github.com/Phunmey)**
