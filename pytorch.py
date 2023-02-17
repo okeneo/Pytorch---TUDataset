@@ -4,6 +4,12 @@
 # !pip install torch_scatter # This will take some time
 # !pip install torch_geometric
 
+# Information needed for each TUDataset:
+
+# Edge information i.e. which 2 nodes are adjacent? -> Tensors
+# Graph indicators i.e. what graph does each node/edge come from? -> Directly from dataset[index]
+# Graph labels/class i.e. what graph class does each of our graphs belong to? -> dataset[index].x
+
 import random
 import numpy as np
 import pandas as pd
