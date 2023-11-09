@@ -7,15 +7,15 @@ from sklearn.model_selection import train_test_split
 from torch_geometric.datasets import TUDataset
 
 """Need these installed to use torch_geometric:
-pip3 install torch_sparse # This will take some time.
-pip3 install torch_scatter # This will take some time.
-pip3 install torch_geometric
+pip install torch_sparse # This will take some time.
+pip install torch_scatter # This will take some time.
+pip install torch_geometric
 """
 
 """Information needed for each TUDataset:
-Edge information i.e. which 2 nodes are adjacent? -> Tensors
-Graph indicators i.e. what graph does each node/edge come from? -> Directly from dataset[index]
-Graph labels/class i.e. what graph class does each of our graphs belong to? -> dataset[index].x
+Edge information i.e., which 2 nodes are adjacent? -> Tensors
+Graph indicators i.e., what graph does each node/edge come from? -> Directly from dataset[index]
+Graph labels/class i.e., what graph class does each of our graphs belong to? -> dataset[index].x
 """
 
 # Allow for reproducibility.
